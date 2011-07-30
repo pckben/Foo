@@ -1,0 +1,15 @@
+#include "Foo.h"
+#include "stdio.h"
+
+Foo::Foo() 
+{
+}
+
+Foo::~Foo()
+{
+}
+
+void Foo::sayHi()
+{
+	printf("Hello, World!\n");
+}
